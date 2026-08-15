@@ -486,7 +486,7 @@ function Home({ offline, queue, onSOS, go, alerts }) {
           <div className="dr-display" style={{ fontSize: 21, fontWeight: 800 }}>Good morning</div>
           <div style={{ fontSize: 13, color: "var(--ink-soft)", marginTop: 2 }}>Stay safe. We're here when you need us.</div>
         </div>
-        <Badge tone="neutral">DEMO MODE</Badge>
+        <Badge tone="neutral">AlgoNauts</Badge>
       </div>
 
       {offline && (
