@@ -1127,7 +1127,7 @@ function Profile({ offline, setOffline, queue, onSyncNow, lastSync }) {
       <div className="dr-card" style={{ padding: "4px 16px" }}>
         <Row label="Language" value="English" />
         <Row label="Notifications" value="Enabled" />
-        <Row label="Demo mode" value={<Badge tone="neutral">ON</Badge>} last />
+        <Row label="Ayush" value={<Badge tone="neutral">ON</Badge>} last />
       </div>
       <div style={{ fontSize: 11, color: "var(--ink-faint)", marginTop: 16, lineHeight: 1.6, textAlign: "center" }}>
         Disaster Ready is a prototype. It is not connected to real emergency<br />authorities, volunteers, or live disaster data.
