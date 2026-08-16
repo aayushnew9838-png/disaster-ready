@@ -557,7 +557,7 @@ function QuickTile({ icon: Icon, label, onClick }) {
     <button onClick={onClick} className="dr-btn dr-card" style={{
       padding: "16px 14px", textAlign: "left", display: "flex", flexDirection: "column", gap: 20,
     }}>
-      <Icon size={19} color: "#fff" />
+      <Icon size={19} color="var(--ink)" />
       <span style={{ fontSize: 13, fontWeight: 700 }}>{label}</span>
     </button>
   );
